@@ -20,9 +20,8 @@ CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -81,8 +80,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/Users/abhin2/Documents/codaily/build/CMakeFiles/pkgRedirects
@@ -381,4 +380,22 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Python3
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/abhin2/miniconda3/include/python3.12][/Users/abhin2/miniconda3/lib/libpython3.12.dylib][cfound components: Development Development.Module Development.Embed ][v3.12.2()]
+//Path to a program.
+_Python3_CONFIG:INTERNAL=/Users/abhin2/miniconda3/bin/python3.12-config
+//Compiler reason failure
+_Python3_Compiler_REASON_FAILURE:INTERNAL=
+_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=5078c3ec2403a0eafc66830ae6d00370
+_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=58559d34d75b3a7ddf3e9e510ad5b828
+//Development reason failure
+_Python3_Development_REASON_FAILURE:INTERNAL=
+//Path to a file.
+_Python3_INCLUDE_DIR:INTERNAL=/Users/abhin2/miniconda3/include/python3.12
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
+//Path to a library.
+_Python3_LIBRARY_RELEASE:INTERNAL=/Users/abhin2/miniconda3/lib/libpython3.12.dylib
+//NumPy reason failure
+_Python3_NumPy_REASON_FAILURE:INTERNAL=
 

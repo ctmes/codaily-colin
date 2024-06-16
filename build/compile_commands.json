@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/abhin2/Documents/codaily/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/abhin2/Documents/codaily/include -I/Users/abhin2/miniconda3/include/python3.12 -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -o CMakeFiles/my_backend.dir/src/main.cpp.o -c /Users/abhin2/Documents/codaily/src/main.cpp",
+  "file": "/Users/abhin2/Documents/codaily/src/main.cpp",
+  "output": "CMakeFiles/my_backend.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/abhin2/Documents/codaily/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/abhin2/Documents/codaily/include -I/Users/abhin2/miniconda3/include/python3.12 -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -o CMakeFiles/my_backend.dir/src/my_source.cpp.o -c /Users/abhin2/Documents/codaily/src/my_source.cpp",
+  "file": "/Users/abhin2/Documents/codaily/src/my_source.cpp",
+  "output": "CMakeFiles/my_backend.dir/src/my_source.cpp.o"
+}
+]
